@@ -5,7 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="f794c3b4-1da5-4724-90f1-015eafdff4f0" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/formTests/TestingForm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/formTests/TestingForm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/formTests/TestingValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/formTests/TestingValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/pages/AbsBasePages.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/pages/AbsBasePages.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/example/tests/pages/AbsCommon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/example/tests/pages/AbsCommon.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

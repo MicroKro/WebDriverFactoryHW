@@ -1,11 +1,8 @@
 package org.example.tests.formTests;
 
-
 import org.example.tests.driver.DriverFactory;
 import org.example.tests.pages.AbsBasePages;
 import org.junit.jupiter.api.*;
-import org.openqa.selenium.*;
-import org.openqa.selenium.support.ui.Select;
 
 public class TestingForm extends AbsBasePages {
 
@@ -27,17 +24,15 @@ public class TestingForm extends AbsBasePages {
     }
 
     @Test
-    public void fillFilds() {
+    public void fillFields() {
         open("/form.html");
         getById("username").sendKeys(AbsBasePages.NAME);
         getById("email").sendKeys("myau@gmail.com");
         getById("password").sendKeys(AbsBasePages.PASSWORD);
-        getById("confirm_password").sendKeys(AbsBasePages.PASSWORD);
-        WebElement select = languageLevEl;
-        Select solutions = new Select(select);
-        solutions.selectByValue("intermediate");
-        driver.findElement(By.cssSelector("#registrationForm input[type=date]")).sendKeys("12.05.1991");
-        driver.findElement(By.cssSelector("#registrationForm input[type=submit]")).click();
+        setTextValue(confirmPas, AbsBasePages.PASSWORD);
+        setSelectValue(languageLevEl, "intermediate");
+        getById("birthdate").sendKeys("12.05.1991");
+        submitForm();
         String send = new String("Имя пользователя: " + AbsBasePages.NAME +
                                         "\nЭлектронная почта: myau@gmail.com\n" +
                                         "Дата рождения: 1991-05-12\n" +
